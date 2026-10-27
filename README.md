@@ -36,6 +36,10 @@ Enable the viewer with `-DLUMEN_VIEWER=ON` after installing GLFW 3.3+ and OpenGL
 
 ## Evaluation
 
+Move the ceiling light with `--light-x OFFSET` between -0.6 and 0.6. To render an animation, install Pillow and run `python tools/animate.py --binary build/lumen`. It saves rendered frames and a lossless WebP loop under `renders/light-motion`.
+
+Animation assembly uses [Pillow](https://python-pillow.github.io/), maintained by Alex Clark and contributors under the HPND license. Pillow packages images rendered by LUMEN.
+
 ```sh
 python tools/benchmark.py --binary build/lumen --output renders/benchmark
 ```
@@ -58,6 +62,7 @@ The suite compares 8, 32, and 128 samples per pixel against independent 1,024-sa
 | `src/viewer.cpp` | Progressive GLFW/OpenGL display |
 | `tests/` | Geometry, sampling, determinism, and backend checks |
 | `tools/benchmark.py` | Reproducible image-error and throughput runs |
+| `tools/animate.py` | Moving-light frames and WebP assembly |
 | `docs/` | Methods, results, and references |
 
 ## Credits
