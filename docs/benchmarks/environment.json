@@ -1,0 +1,18 @@
+{
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "binary_sha256": "0849a9d521a29252980df03e38306e00890e5d7eafc3341a2215c7fcaf832cd1",
+  "width": 96,
+  "height": 96,
+  "threads": 4,
+  "reference_spp": 1024,
+  "reference_seed": 7001,
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "timing": "Renderer wall time including allocations, excluding file output and BVH build",
+  "memory": "Explicit image, scene, and backend buffer byte estimate, not peak resident memory",
+  "error": "Mean squared linear RGB difference from a finite independent reference"
+}

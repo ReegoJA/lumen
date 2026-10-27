@@ -1,0 +1,7 @@
+build/
+renders/
+*.exe
+*.o
+*.obj
+*.pdb
+.vs/

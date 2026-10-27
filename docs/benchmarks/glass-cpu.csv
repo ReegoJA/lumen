@@ -1,0 +1,2 @@
+scene,backend,width,height,spp,depth,seed,offset,mis,bvh,seconds,samples_per_second,working_bytes,mse
+glass,cpu,160,160,64,12,1,0,1,1,1.234359359,1327328.21123,309508,
